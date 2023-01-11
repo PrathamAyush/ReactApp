@@ -1,0 +1,76 @@
+/*Site Banner Styling*/
+.text-style {
+    text-align: center;
+    color: rgb(247, 247, 247);
+    padding-top: 100px;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: "Sofia", sans-serif;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+.banner-img {
+    background-size: 100%;
+    background-image: url(./img/Ecommerce-fashion-industry.jpg);
+    height: 350px;
+}
+
+/*Slide-Style*/
+.featured-product {
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container-fluid {
+    margin-bottom: 10px;
+}
+
+.btn-cart {
+    width: 70%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(149, 248, 36);
+    color: solid black;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    padding: 2px;
+    margin: 10px;
+}
+
+/* Slider Button */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: rgba(245, 60, 60, 0.658);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
